@@ -44,7 +44,7 @@ btn.forEach((el) => {
     removeBtn.addEventListener("click", () => {
       removeTr.remove();
       document.querySelector(`#i${curBtn}`).value = 0;
-     
+      document.querySelector("#totalRow").remove();
     });
 
     return tableRow;
